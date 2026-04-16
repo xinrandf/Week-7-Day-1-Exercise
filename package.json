@@ -1,9 +1,7 @@
 {
-  "name": "react-vertex-sphere-of-spheres",
+  "name": "week7-day1-exercise",
   "version": "1.0.0",
-  "description": "Starter sandbox for React Vertex",
   "keywords": [],
-  "main": "src/index.js",
   "dependencies": {
     "@react-vertex/core": "3.0.0",
     "@react-vertex/dom-hooks": "1.11.0",
@@ -12,9 +10,10 @@
     "@react-vertex/math-hooks": "2.0.0",
     "@react-vertex/orbit-camera": "3.0.0",
     "d3-timer": "1.0.9",
-    "react": "16.8.6",
-    "react-dom": "16.8.6",
-    "react-scripts": "2.1.8"
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "^2.1.8"
   },
   "devDependencies": {
     "typescript": "3.3.3"

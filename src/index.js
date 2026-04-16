@@ -2,7 +2,11 @@ import React from "react";
 import ReactDOM from "react-dom";
 import { Canvas } from "@react-vertex/core";
 import { useViewportSize } from "@react-vertex/dom-hooks";
-import Scene from "./Scene";
+import Scene from "./React Vertex  Sphere of Spheres/Scene";
+import App from "./App";
+
+ReactDOM.render(<App />, document.getElementById("root"));
+
 
 function Example() {
   const { width, height } = useViewportSize();
